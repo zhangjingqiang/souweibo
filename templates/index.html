@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="row">
+    {% for key, value in result.iteritems() %}
+    <div class="span12">
+      <div class="alert alert-success">
+        <h3><a href="http://www.google.com{{ key }}">{{ value }}</a></h3>
+      </div>
+    </div>
+    {% endfor %}
+    <div class="span12">
+      <div class="alert alert-info" style="text-align:center;">
+        <a href="{{ google_search }}">更多...</a>
+      </div>
+    </div>
+</div>
+
+{% endblock %}
