@@ -1,7 +1,8 @@
 搜微博
-=====
+======
 
-# Introduction
+Introduction
+------------
 
 This app can search weibo_ by Google engine. It's written in Python_, with framework Flask_, hosted on Heroku_.
 
@@ -10,15 +11,17 @@ This app can search weibo_ by Google engine. It's written in Python_, with frame
 .. _Flask: http://flask.pocoo.org/
 .. _Heroku: http://souweibo.herokuapp.com/
 
-# Installation
+Installation
+------------
 
-```python
-$ mkvirtualenv souweibo
-$ pip install -r requirements.txt
-$ python app.py
-```
+::
 
-# License
+    $ mkvirtualenv souweibo
+    $ pip install -r requirements.txt
+    $ python app.py
+
+License
+-------
 
 Licensed under the `MIT License`_.
 
